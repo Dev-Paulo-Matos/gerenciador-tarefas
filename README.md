@@ -47,3 +47,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 ## Projeto utilizado como portifolio
+
+Rodando no : https://dev-paulo-matos.github.io/gerenciador-tarefas/
+
+Estou atuando ainda nesse projeto, então aguardem novidades! irei aprimora-lo com o tempo
