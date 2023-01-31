@@ -2,7 +2,7 @@ import imgClock from '../../../assets/clock-and-calendar-svgrepo-com.svg'
 import { Link } from 'react-router-dom'
 const NavigationMenu = () => {
     let CondicionalReference;
-    if(String(window.location.href).includes('login')) {
+    if(String(window.location.href).includes('login') ||String(window.location.href).includes('register')) {
         CondicionalReference = <Link to={"/"} className="text-gray-50 hover:text-sky-500 dark:hover:text-sky-400" >Home</Link>
     } else {
         CondicionalReference = <a className="text-gray-50 hover:text-sky-500 dark:hover:text-sky-400" href="/#">Home</a>
@@ -25,8 +25,8 @@ const IconNavigation = () => {
 const NaoLogado = () => {
     return(
         <div className="flex gap-4 items-center">
-            <Link to={"/login"} className='bg-blue-200 pr-3 pl-3 h-8 bd-8 rounded-xl hover:bg-blue-300 dark:hover:bg-blue-400' >Sign in</Link>
-            <Link to={"/login"} className="text-gray-50 flex">Sign up</Link>
+            <Link to={"/login"} className='bg-blue-200 pr-3 pl-3 py-2 rounded-xl hover:bg-blue-300 dark:hover:bg-blue-400' >Sign in</Link>
+            <Link to={"/register"} className="text-gray-50 flex">Sign up</Link>
         </div>
     )
 }
