@@ -9,14 +9,14 @@ const Login = () => {
                 <form action="">
                     <label className="block mb-6">
                         <span className="block mb-1 text-sm font-medium text-slate-700">Nome de usuario:</span>
-                        <input className="border border-slate-300 w-full py-2 border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500" />
+                        <input className="px-2 border border-slate-300 w-full py-2 border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500" />
                     </label>
                     <label className="block mb-6">
                         <span className="block mb-1 text-sm font-medium text-slate-700">Senha:</span>
-                        <input className="border border-slate-300 w-full py-2 border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500" />
+                        <input className="px-2 border border-slate-300 w-full py-2 border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500" />
                     </label>
                     <label className="block mb-6">
-                        <button className=" bg-azul border border-slate-300 w-full py-2 border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500">Entrar</button>
+                        <button className="px-2 bg-azul border border-slate-300 w-full py-2 border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500">Entrar</button>
                     </label>
                 </form>
             </div>

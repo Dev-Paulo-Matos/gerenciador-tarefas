@@ -10,7 +10,6 @@ import Register from "../components/user/register/Register"
 export const HomePage = () => {
     return(
         <React.Fragment>
-            <Header />
             <Main />
             <SectionMain />
             <SectionContato />
@@ -21,7 +20,6 @@ export const HomePage = () => {
 const RegisterPage = () => {
     return (
     <React.Fragment>
-        <Header />
         <Register />
     </React.Fragment>
     )
@@ -30,7 +28,6 @@ const RegisterPage = () => {
 const LoginPage = () => {
     return (
     <React.Fragment>
-        <Header />
         <Login />
     </React.Fragment>
     )
@@ -39,11 +36,11 @@ const LoginPage = () => {
 export const Routers = () => {
     return (
         <BrowserRouter>
+            <Header />
             <Routes>
-            
-                <Route path="/*" element={<HomePage />} />
-                <Route path="/register" element={<RegisterPage />} />
-                <Route path="/login" element={<LoginPage />}/>
+                <Route path="/gerenciador-tarefas/*" element={<HomePage />} />
+                <Route path="/gerenciador-tarefas/register" element={<RegisterPage />} />
+                <Route path="/gerenciador-tarefas/login" element={<LoginPage />}/>
             </Routes>
         </BrowserRouter>
     )
