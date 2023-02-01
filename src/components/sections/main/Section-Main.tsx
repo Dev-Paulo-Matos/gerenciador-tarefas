@@ -2,7 +2,7 @@ import imgArticle from '../../../assets/article-img.png'
 
 export const SectionMain = () => {
     return(
-      <div id='section-main' className='bg-blue-100 mt-40 drop-shadow-md'>
+      <div className='bg-blue-100 mt-40 drop-shadow-md'>
         <section className='mx-auto max-w-7xl flex pl-20  '>
           <img src={imgArticle} alt="" className='w-3/6'/>
           <article className='w-full pt-10'>

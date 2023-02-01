@@ -2,7 +2,7 @@ import imgMain from '../../../assets/main-img.png';
 import iconSvgArrowLeft from '../../../assets/arrow-left.svg'
 function Main(){
     return(
-    <main>
+    <main id='home'>
         <section className="mx-auto max-w-7xl">
             <div className="flex pl-40 pt-60">
                 <div>
@@ -16,6 +16,7 @@ function Main(){
                 <img className='w-72' src={imgMain} alt="" />
             </div>
         </section>
+        <div id='section-main'></div>
     </main>
     )
 }

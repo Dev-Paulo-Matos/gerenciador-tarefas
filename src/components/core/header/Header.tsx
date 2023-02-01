@@ -4,13 +4,24 @@ const NavigationMenu = () => {
 
     <Link to={"/gerenciador-tarefas/#"}  className="text-gray-50 hover:text-sky-500 dark:hover:text-sky-400">Home</Link>
 
-    const scrollTop = () => {window.scrollTo(0, 0)}
+    const scrollTop = () => {
+        const main = document.querySelector('#home')
+        main?.scrollIntoView({behavior: 'smooth'})
+    }
+    const scrollMid = () => {
+        const main = document.querySelector('#section-main')
+        main?.scrollIntoView({behavior: 'smooth'})
+    }
+    const scrollBottom = () => {
+        const contato = document.querySelector('#contato')
+        contato?.scrollIntoView({behavior: 'smooth'})
+    }
     return (
     <div className="flex items-center">
     <ul className="flex space-x-8">
-        <li><Link to={"/gerenciador-tarefas/"}  className="text-gray-50 hover:text-sky-500 dark:hover:text-sky-400" onClick={scrollTop}>Home</Link></li>
-        <li><a className="text-gray-50 hover:text-sky-500 dark:hover:text-sky-400" href="#section-main">Sobre</a></li>
-        <li><a className="text-gray-50 hover:text-sky-500 dark:hover:text-sky-400" href="#contato">Contato</a></li>
+        <li><Link to={"/gerenciador-tarefas/"} className="text-gray-50 hover:text-sky-500 dark:hover:text-sky-400" onClick={scrollTop}>Home</Link></li>
+        <li><Link to={"/gerenciador-tarefas/"} className="text-gray-50 hover:text-sky-500 dark:hover:text-sky-400" onClick={scrollMid}>Sobre</Link></li>
+        <li><Link to={"/gerenciador-tarefas/"} className="text-gray-50 hover:text-sky-500 dark:hover:text-sky-400" onClick={scrollBottom}>Contato</Link></li>
     </ul>
     </div>
 )
@@ -37,6 +48,7 @@ export const Header = () => {
                     <IconNavigation />
                     <NavigationMenu />
                     <NaoLogado />
+                    
                 </div>
             </nav>
         </div>
