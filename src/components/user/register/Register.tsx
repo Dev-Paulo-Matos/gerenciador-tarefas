@@ -43,7 +43,7 @@ const Register = () => {
                         {errors.confirmSenha?.type === 'validate' && <p className="text-xs text-red-500">As senhas devem ser iguais!</p>}
                     </label>
                     <label className="block mb-6">
-                        <input type="submit"  value="submit" className="text-slate-50 text-center px-2  bg-azul border border-slate-300 w-full py-2 border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500" />
+                        <input type="submit"  value="Registrar-se" className="text-slate-50 text-center px-2  bg-azul border border-slate-300 w-full py-2 border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500" />
                     </label>
                 </form>
             </div>
