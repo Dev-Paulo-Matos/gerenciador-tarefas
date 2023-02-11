@@ -1,7 +1,6 @@
 import React from 'react';
 import './app.css';
 import { Footer } from './components/core/footer/Footer';
-import { Header } from './components/core/header/Header';
 
 import { Routers } from './routers/Routers';
 
