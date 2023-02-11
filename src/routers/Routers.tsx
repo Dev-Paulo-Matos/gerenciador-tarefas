@@ -3,6 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes, useNavigate } from "react-route
 import { Authenticated } from "../authentication/Authentication"
 import { Header } from "../components/core/header/Header"
 import Main from "../components/core/main/Main"
+import { DashBoard } from "../components/dashboard/Dashboard"
 import { SectionContato } from "../components/sections/contato/Section-Contato"
 import { SectionMain } from "../components/sections/main/Section-Main"
 import Login from "../components/user/login/Login"
@@ -52,6 +53,7 @@ export const Routers = () => {
                 <Route path="/gerenciador-tarefas/login" element={<LoginPage />}/>
                 <Route path="/gerenciador-tarefas/app"  element={
                     <ProtectedRoute>
+                        <DashBoard></DashBoard>
                     </ProtectedRoute>                
                 }/>
             </Routes>
