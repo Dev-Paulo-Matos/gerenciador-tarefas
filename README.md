@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Bem vindo ao meu projeto gerenciador de tarefas!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
