@@ -1,5 +1,5 @@
 import React from 'react';
-import './app.css';
+import './App.css';
 import { Footer } from './components/core/footer/Footer';
 
 import { Routers } from './routers/Routers';
