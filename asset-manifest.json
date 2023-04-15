@@ -1,20 +1,17 @@
 {
   "files": {
-    "main.css": "/gerenciador-tarefas/static/css/main.dd17b3b9.css",
-    "main.js": "/gerenciador-tarefas/static/js/main.73cd4c32.js",
+    "main.js": "/gerenciador-tarefas/static/js/main.de98a56b.js",
     "static/js/787.28cb0dcd.chunk.js": "/gerenciador-tarefas/static/js/787.28cb0dcd.chunk.js",
     "static/media/main-img.png": "/gerenciador-tarefas/static/media/main-img.58b3a10a4bf3041ad17f.png",
     "static/media/article-img.png": "/gerenciador-tarefas/static/media/article-img.5216500394409856b3d5.png",
     "static/media/contact.svg": "/gerenciador-tarefas/static/media/contact.fe1c91618b013285dcdb8f341bc28166.svg",
     "static/media/clock-and-calendar-svgrepo-com.svg": "/gerenciador-tarefas/static/media/clock-and-calendar-svgrepo-com.d2ff17960c34762b22b2d925d6ca1688.svg",
-    "static/media/arrow-left.svg": "/gerenciador-tarefas/static/media/arrow-left.e6abc63ac64fdcd8b1642596993520b4.svg",
+    "static/media/arrow-left.svg": "/gerenciador-tarefas/static/media/arrow-left.be1d49006dda5494e709874d28d8214e.svg",
     "index.html": "/gerenciador-tarefas/index.html",
-    "main.dd17b3b9.css.map": "/gerenciador-tarefas/static/css/main.dd17b3b9.css.map",
-    "main.73cd4c32.js.map": "/gerenciador-tarefas/static/js/main.73cd4c32.js.map",
+    "main.de98a56b.js.map": "/gerenciador-tarefas/static/js/main.de98a56b.js.map",
     "787.28cb0dcd.chunk.js.map": "/gerenciador-tarefas/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd17b3b9.css",
-    "static/js/main.73cd4c32.js"
+    "static/js/main.de98a56b.js"
   ]
 }
