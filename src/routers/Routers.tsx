@@ -48,7 +48,7 @@ export const Routers = () => {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path="/gerenciador-tarefas/dashboard" element={<HomePage />} />
+                <Route path="/gerenciador-tarefas/" element={<HomePage />} />
                 <Route path="/gerenciador-tarefas/register" element={<RegisterPage />} />
                 <Route path="/gerenciador-tarefas/login" element={<LoginPage />}/>
                 <Route path="/gerenciador-tarefas/app"  element={
