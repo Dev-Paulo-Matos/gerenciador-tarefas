@@ -27,7 +27,7 @@ A aplicação apresenta uma landing page institucional, preparada para evoluir p
 
 ## 🖥️ Demonstração
 
-![Preview do sistema](./assets/preview.png)
+![Preview do sistema](./FireShot%20Capture%20001%20-%20React%20App%20-%20%5Bdev-paulo-matos.github.io%5D.png)
 
 > Interface limpa, moderna e focada em experiência do usuário.
 
