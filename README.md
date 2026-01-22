@@ -1,53 +1,75 @@
-# Bem vindo ao meu projeto gerenciador de tarefas!
+# 🗂️ Gerenciador de Tarefas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação web desenvolvida para auxiliar no gerenciamento de tarefas do dia a dia, com foco em **organização, produtividade e simplicidade de uso**.  
+O projeto simula um produto real, desde a landing page até a estrutura base para autenticação e expansão futura.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Visão Geral
 
-### `npm start`
+O **Gerenciador de Tarefas** foi desenvolvido com o objetivo de demonstrar habilidades em **desenvolvimento front-end moderno**, organização de componentes e construção de interfaces responsivas e intuitivas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A aplicação apresenta uma landing page institucional, preparada para evoluir para um sistema completo de gerenciamento de tarefas com autenticação de usuários.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧠 Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Página inicial (Landing Page)
+- Apresentação clara do produto
+- Navegação estruturada
+- Layout responsivo
+- Formulário de contato
+- Estrutura preparada para autenticação (Sign in / Sign up)
+- Componentização reutilizável
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🖥️ Demonstração
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Preview do sistema](./assets/preview.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Interface limpa, moderna e focada em experiência do usuário.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🏗️ Arquitetura e Organização
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Separação clara de componentes
+- Estrutura escalável para crescimento do projeto
+- Boas práticas de organização de pastas
+- Código legível e de fácil manutenção
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Este projeto foi pensado para evoluir para um **sistema completo**, permitindo a adição de:
+- Cadastro de usuários
+- Autenticação
+- CRUD de tarefas
+- Integração com backend
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Tecnologias Utilizadas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Componentização em React
+- Git e GitHub para versionamento
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
+## ▶️ Como executar o projeto
 
-## Projeto utilizado como portifolio
+```bash
+# Clone o repositório
+git clone https://github.com/Dev-Paulo-Matos/gerenciador-tarefas.git
 
-Rodando no : https://dev-paulo-matos.github.io/gerenciador-tarefas/
+# Acesse a pasta do projeto
+cd gerenciador-tarefas
 
-Estou atuando ainda nesse projeto, então aguardem novidades! irei aprimora-lo com o tempo
+# Instale as dependências
+npm install
+
+# Execute a aplicação
+npm start
